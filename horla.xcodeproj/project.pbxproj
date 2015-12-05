@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C90848C01C138BCA00FA8DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848BF1C138BCA00FA8DA8 /* AppDelegate.swift */; };
+		C90848C21C138BCA00FA8DA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848C11C138BCA00FA8DA8 /* ViewController.swift */; };
+		C90848C51C138BCA00FA8DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90848C31C138BCA00FA8DA8 /* Main.storyboard */; };
+		C90848C71C138BCA00FA8DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90848C61C138BCA00FA8DA8 /* Assets.xcassets */; };
+		C90848CA1C138BCA00FA8DA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90848C81C138BCA00FA8DA8 /* LaunchScreen.storyboard */; };
+		C90848D51C138BCA00FA8DA8 /* horlaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848D41C138BCA00FA8DA8 /* horlaTests.swift */; };
+		C90848E01C138BCA00FA8DA8 /* horlaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848DF1C138BCA00FA8DA8 /* horlaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C90848D11C138BCA00FA8DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90848B41C138BCA00FA8DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C90848BB1C138BCA00FA8DA8;
+			remoteInfo = horla;
+		};
+		C90848DC1C138BCA00FA8DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90848B41C138BCA00FA8DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C90848BB1C138BCA00FA8DA8;
+			remoteInfo = horla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C90848BC1C138BCA00FA8DA8 /* horla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = horla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90848BF1C138BCA00FA8DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C90848C11C138BCA00FA8DA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C90848C41C138BCA00FA8DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C90848C61C138BCA00FA8DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C90848C91C138BCA00FA8DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C90848CB1C138BCA00FA8DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90848D01C138BCA00FA8DA8 /* horlaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = horlaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90848D41C138BCA00FA8DA8 /* horlaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horlaTests.swift; sourceTree = "<group>"; };
+		C90848D61C138BCA00FA8DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90848DB1C138BCA00FA8DA8 /* horlaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = horlaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90848DF1C138BCA00FA8DA8 /* horlaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horlaUITests.swift; sourceTree = "<group>"; };
+		C90848E11C138BCA00FA8DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C90848B91C138BCA00FA8DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90848CD1C138BCA00FA8DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90848D81C138BCA00FA8DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C90848B31C138BCA00FA8DA8 = {
+			isa = PBXGroup;
+			children = (
+				C90848BE1C138BCA00FA8DA8 /* horla */,
+				C90848D31C138BCA00FA8DA8 /* horlaTests */,
+				C90848DE1C138BCA00FA8DA8 /* horlaUITests */,
+				C90848BD1C138BCA00FA8DA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C90848BD1C138BCA00FA8DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C90848BC1C138BCA00FA8DA8 /* horla.app */,
+				C90848D01C138BCA00FA8DA8 /* horlaTests.xctest */,
+				C90848DB1C138BCA00FA8DA8 /* horlaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C90848BE1C138BCA00FA8DA8 /* horla */ = {
+			isa = PBXGroup;
+			children = (
+				C90848BF1C138BCA00FA8DA8 /* AppDelegate.swift */,
+				C90848C11C138BCA00FA8DA8 /* ViewController.swift */,
+				C90848C31C138BCA00FA8DA8 /* Main.storyboard */,
+				C90848C61C138BCA00FA8DA8 /* Assets.xcassets */,
+				C90848C81C138BCA00FA8DA8 /* LaunchScreen.storyboard */,
+				C90848CB1C138BCA00FA8DA8 /* Info.plist */,
+			);
+			path = horla;
+			sourceTree = "<group>";
+		};
+		C90848D31C138BCA00FA8DA8 /* horlaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C90848D41C138BCA00FA8DA8 /* horlaTests.swift */,
+				C90848D61C138BCA00FA8DA8 /* Info.plist */,
+			);
+			path = horlaTests;
+			sourceTree = "<group>";
+		};
+		C90848DE1C138BCA00FA8DA8 /* horlaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C90848DF1C138BCA00FA8DA8 /* horlaUITests.swift */,
+				C90848E11C138BCA00FA8DA8 /* Info.plist */,
+			);
+			path = horlaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C90848BB1C138BCA00FA8DA8 /* horla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90848E41C138BCA00FA8DA8 /* Build configuration list for PBXNativeTarget "horla" */;
+			buildPhases = (
+				C90848B81C138BCA00FA8DA8 /* Sources */,
+				C90848B91C138BCA00FA8DA8 /* Frameworks */,
+				C90848BA1C138BCA00FA8DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = horla;
+			productName = horla;
+			productReference = C90848BC1C138BCA00FA8DA8 /* horla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C90848CF1C138BCA00FA8DA8 /* horlaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90848E71C138BCA00FA8DA8 /* Build configuration list for PBXNativeTarget "horlaTests" */;
+			buildPhases = (
+				C90848CC1C138BCA00FA8DA8 /* Sources */,
+				C90848CD1C138BCA00FA8DA8 /* Frameworks */,
+				C90848CE1C138BCA00FA8DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90848D21C138BCA00FA8DA8 /* PBXTargetDependency */,
+			);
+			name = horlaTests;
+			productName = horlaTests;
+			productReference = C90848D01C138BCA00FA8DA8 /* horlaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C90848DA1C138BCA00FA8DA8 /* horlaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90848EA1C138BCA00FA8DA8 /* Build configuration list for PBXNativeTarget "horlaUITests" */;
+			buildPhases = (
+				C90848D71C138BCA00FA8DA8 /* Sources */,
+				C90848D81C138BCA00FA8DA8 /* Frameworks */,
+				C90848D91C138BCA00FA8DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90848DD1C138BCA00FA8DA8 /* PBXTargetDependency */,
+			);
+			name = horlaUITests;
+			productName = horlaUITests;
+			productReference = C90848DB1C138BCA00FA8DA8 /* horlaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C90848B41C138BCA00FA8DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Proper Tea";
+				TargetAttributes = {
+					C90848BB1C138BCA00FA8DA8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3G2F6ALZZX;
+					};
+					C90848CF1C138BCA00FA8DA8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3G2F6ALZZX;
+						TestTargetID = C90848BB1C138BCA00FA8DA8;
+					};
+					C90848DA1C138BCA00FA8DA8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3G2F6ALZZX;
+						TestTargetID = C90848BB1C138BCA00FA8DA8;
+					};
+				};
+			};
+			buildConfigurationList = C90848B71C138BCA00FA8DA8 /* Build configuration list for PBXProject "horla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C90848B31C138BCA00FA8DA8;
+			productRefGroup = C90848BD1C138BCA00FA8DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C90848BB1C138BCA00FA8DA8 /* horla */,
+				C90848CF1C138BCA00FA8DA8 /* horlaTests */,
+				C90848DA1C138BCA00FA8DA8 /* horlaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C90848BA1C138BCA00FA8DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90848CA1C138BCA00FA8DA8 /* LaunchScreen.storyboard in Resources */,
+				C90848C71C138BCA00FA8DA8 /* Assets.xcassets in Resources */,
+				C90848C51C138BCA00FA8DA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90848CE1C138BCA00FA8DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90848D91C138BCA00FA8DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C90848B81C138BCA00FA8DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90848C21C138BCA00FA8DA8 /* ViewController.swift in Sources */,
+				C90848C01C138BCA00FA8DA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90848CC1C138BCA00FA8DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90848D51C138BCA00FA8DA8 /* horlaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90848D71C138BCA00FA8DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90848E01C138BCA00FA8DA8 /* horlaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C90848D21C138BCA00FA8DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C90848BB1C138BCA00FA8DA8 /* horla */;
+			targetProxy = C90848D11C138BCA00FA8DA8 /* PBXContainerItemProxy */;
+		};
+		C90848DD1C138BCA00FA8DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C90848BB1C138BCA00FA8DA8 /* horla */;
+			targetProxy = C90848DC1C138BCA00FA8DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C90848C31C138BCA00FA8DA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90848C41C138BCA00FA8DA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C90848C81C138BCA00FA8DA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90848C91C138BCA00FA8DA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C90848E21C138BCA00FA8DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C90848E31C138BCA00FA8DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C90848E51C138BCA00FA8DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = horla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.properteallc.horla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C90848E61C138BCA00FA8DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = horla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.properteallc.horla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C90848E81C138BCA00FA8DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = horlaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.properteallc.horlaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/horla.app/horla";
+			};
+			name = Debug;
+		};
+		C90848E91C138BCA00FA8DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = horlaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.properteallc.horlaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/horla.app/horla";
+			};
+			name = Release;
+		};
+		C90848EB1C138BCA00FA8DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = horlaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.properteallc.horlaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = horla;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C90848EC1C138BCA00FA8DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = horlaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.properteallc.horlaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = horla;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C90848B71C138BCA00FA8DA8 /* Build configuration list for PBXProject "horla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90848E21C138BCA00FA8DA8 /* Debug */,
+				C90848E31C138BCA00FA8DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90848E41C138BCA00FA8DA8 /* Build configuration list for PBXNativeTarget "horla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90848E51C138BCA00FA8DA8 /* Debug */,
+				C90848E61C138BCA00FA8DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C90848E71C138BCA00FA8DA8 /* Build configuration list for PBXNativeTarget "horlaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90848E81C138BCA00FA8DA8 /* Debug */,
+				C90848E91C138BCA00FA8DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C90848EA1C138BCA00FA8DA8 /* Build configuration list for PBXNativeTarget "horlaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90848EB1C138BCA00FA8DA8 /* Debug */,
+				C90848EC1C138BCA00FA8DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C90848B41C138BCA00FA8DA8 /* Project object */;
+}
