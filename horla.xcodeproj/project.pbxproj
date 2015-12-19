@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C90848C01C138BCA00FA8DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848BF1C138BCA00FA8DA8 /* AppDelegate.swift */; };
-		C90848C21C138BCA00FA8DA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848C11C138BCA00FA8DA8 /* ViewController.swift */; };
 		C90848C51C138BCA00FA8DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90848C31C138BCA00FA8DA8 /* Main.storyboard */; };
 		C90848C71C138BCA00FA8DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90848C61C138BCA00FA8DA8 /* Assets.xcassets */; };
 		C90848CA1C138BCA00FA8DA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90848C81C138BCA00FA8DA8 /* LaunchScreen.storyboard */; };
 		C90848D51C138BCA00FA8DA8 /* horlaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848D41C138BCA00FA8DA8 /* horlaTests.swift */; };
 		C90848E01C138BCA00FA8DA8 /* horlaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848DF1C138BCA00FA8DA8 /* horlaUITests.swift */; };
+		C90848F11C138EFF00FA8DA8 /* ReaderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848F01C138EFF00FA8DA8 /* ReaderTableViewController.swift */; };
+		C90848F31C13A49900FA8DA8 /* TextBlockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848F21C13A49900FA8DA8 /* TextBlockTableViewCell.swift */; };
+		C90848F71C1519B600FA8DA8 /* ScrollingTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848F61C1519B600FA8DA8 /* ScrollingTextViewController.swift */; };
+		C90848F91C151A6200FA8DA8 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848F81C151A6100FA8DA8 /* Book.swift */; };
+		C90848FB1C1B6C8200FA8DA8 /* ChapterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848FA1C1B6C8200FA8DA8 /* ChapterTableViewController.swift */; };
+		C90848FD1C1B6E5C00FA8DA8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90848FC1C1B6E5C00FA8DA8 /* Extensions.swift */; };
+		C90849041C1B8A3600FA8DA8 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90849031C1B8A3600FA8DA8 /* TextViewController.swift */; };
+		C93558931C22ED1800B20AF5 /* lehorla_english.txt in Resources */ = {isa = PBXBuildFile; fileRef = C93558921C22ED1800B20AF5 /* lehorla_english.txt */; };
+		C93558951C22ED2800B20AF5 /* lehorla_marks.txt in Resources */ = {isa = PBXBuildFile; fileRef = C93558941C22ED2800B20AF5 /* lehorla_marks.txt */; };
+		C93558971C22ED4E00B20AF5 /* lehorla_french.txt in Resources */ = {isa = PBXBuildFile; fileRef = C93558961C22ED4E00B20AF5 /* lehorla_french.txt */; };
+		C93558981C23934E00B20AF5 /* lehorla_nointro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C90848FE1C1B6F7F00FA8DA8 /* lehorla_nointro.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		C90848BC1C138BCA00FA8DA8 /* horla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = horla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90848BF1C138BCA00FA8DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C90848C11C138BCA00FA8DA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C90848C41C138BCA00FA8DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C90848C61C138BCA00FA8DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C90848C91C138BCA00FA8DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		C90848DB1C138BCA00FA8DA8 /* horlaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = horlaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90848DF1C138BCA00FA8DA8 /* horlaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horlaUITests.swift; sourceTree = "<group>"; };
 		C90848E11C138BCA00FA8DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90848F01C138EFF00FA8DA8 /* ReaderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderTableViewController.swift; sourceTree = "<group>"; };
+		C90848F21C13A49900FA8DA8 /* TextBlockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBlockTableViewCell.swift; sourceTree = "<group>"; };
+		C90848F61C1519B600FA8DA8 /* ScrollingTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingTextViewController.swift; sourceTree = "<group>"; };
+		C90848F81C151A6100FA8DA8 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		C90848FA1C1B6C8200FA8DA8 /* ChapterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterTableViewController.swift; sourceTree = "<group>"; };
+		C90848FC1C1B6E5C00FA8DA8 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C90848FE1C1B6F7F00FA8DA8 /* lehorla_nointro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = lehorla_nointro.m4a; sourceTree = "<group>"; };
+		C90849031C1B8A3600FA8DA8 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		C93558921C22ED1800B20AF5 /* lehorla_english.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lehorla_english.txt; sourceTree = "<group>"; };
+		C93558941C22ED2800B20AF5 /* lehorla_marks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lehorla_marks.txt; sourceTree = "<group>"; };
+		C93558961C22ED4E00B20AF5 /* lehorla_french.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lehorla_french.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +117,19 @@
 		C90848BE1C138BCA00FA8DA8 /* horla */ = {
 			isa = PBXGroup;
 			children = (
+				C90848ED1C138EA300FA8DA8 /* Data */,
 				C90848BF1C138BCA00FA8DA8 /* AppDelegate.swift */,
-				C90848C11C138BCA00FA8DA8 /* ViewController.swift */,
 				C90848C31C138BCA00FA8DA8 /* Main.storyboard */,
+				C90849031C1B8A3600FA8DA8 /* TextViewController.swift */,
+				C90848F61C1519B600FA8DA8 /* ScrollingTextViewController.swift */,
+				C90848F21C13A49900FA8DA8 /* TextBlockTableViewCell.swift */,
 				C90848C61C138BCA00FA8DA8 /* Assets.xcassets */,
 				C90848C81C138BCA00FA8DA8 /* LaunchScreen.storyboard */,
+				C90848FC1C1B6E5C00FA8DA8 /* Extensions.swift */,
 				C90848CB1C138BCA00FA8DA8 /* Info.plist */,
+				C90848F01C138EFF00FA8DA8 /* ReaderTableViewController.swift */,
+				C90848F81C151A6100FA8DA8 /* Book.swift */,
+				C90848FA1C1B6C8200FA8DA8 /* ChapterTableViewController.swift */,
 			);
 			path = horla;
 			sourceTree = "<group>";
@@ -123,6 +150,17 @@
 				C90848E11C138BCA00FA8DA8 /* Info.plist */,
 			);
 			path = horlaUITests;
+			sourceTree = "<group>";
+		};
+		C90848ED1C138EA300FA8DA8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C93558941C22ED2800B20AF5 /* lehorla_marks.txt */,
+				C93558961C22ED4E00B20AF5 /* lehorla_french.txt */,
+				C93558921C22ED1800B20AF5 /* lehorla_english.txt */,
+				C90848FE1C1B6F7F00FA8DA8 /* lehorla_nointro.m4a */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90848CA1C138BCA00FA8DA8 /* LaunchScreen.storyboard in Resources */,
+				C93558931C22ED1800B20AF5 /* lehorla_english.txt in Resources */,
+				C93558971C22ED4E00B20AF5 /* lehorla_french.txt in Resources */,
+				C93558951C22ED2800B20AF5 /* lehorla_marks.txt in Resources */,
+				C93558981C23934E00B20AF5 /* lehorla_nointro.m4a in Resources */,
 				C90848C71C138BCA00FA8DA8 /* Assets.xcassets in Resources */,
 				C90848C51C138BCA00FA8DA8 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90848C21C138BCA00FA8DA8 /* ViewController.swift in Sources */,
+				C90848FB1C1B6C8200FA8DA8 /* ChapterTableViewController.swift in Sources */,
+				C90848F11C138EFF00FA8DA8 /* ReaderTableViewController.swift in Sources */,
+				C90848F91C151A6200FA8DA8 /* Book.swift in Sources */,
+				C90848F31C13A49900FA8DA8 /* TextBlockTableViewCell.swift in Sources */,
 				C90848C01C138BCA00FA8DA8 /* AppDelegate.swift in Sources */,
+				C90848F71C1519B600FA8DA8 /* ScrollingTextViewController.swift in Sources */,
+				C90848FD1C1B6E5C00FA8DA8 /* Extensions.swift in Sources */,
+				C90849041C1B8A3600FA8DA8 /* TextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +535,7 @@
 				C90848E61C138BCA00FA8DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C90848E71C138BCA00FA8DA8 /* Build configuration list for PBXNativeTarget "horlaTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +544,7 @@
 				C90848E91C138BCA00FA8DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C90848EA1C138BCA00FA8DA8 /* Build configuration list for PBXNativeTarget "horlaUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +553,7 @@
 				C90848EC1C138BCA00FA8DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
